@@ -1,0 +1,48 @@
+# Arquivos de objetos compilados, bibliotecas estáticas e dinâmicas (objetos compartilhados)
+* .o
+*.uma
+*.assim
+
+# Pastas
+_obj
+_teste
+
+# Extensões / prefixos específicos da arquitetura
+*. [568vq]
+[568vq] .out
+
+* .cgo1.go
+* .cgo2.c
+_cgo_defun.c
+_cgo_gotypes.go
+_cgo_export. *
+
+_testmain.go
+
+*.exe
+*.teste
+* .prof
+
+# WebStorm
+* .iml
+
+# Formato de projeto baseado em diretório:
+.idéia/
+.idea / workspace.xml
+** /. Idea / workspace.xml
+
+# Arquivos mac escondidos
+.DS_Store
+
+##de outros
+# Node_modules /
+# Bower_components /
+.tmp
+# .sass-cache
+#builds / ** / images / *
+# *. Ogg
+# *. Mp3
+# *. Mp4
+# *. Png
+# *. Jpeg
+* .psd
